@@ -6,7 +6,7 @@ function Resume() {
         I like to challenge my limits and never miss an opportunity.
       </p>
       <a
-        href="/Resume/Jasvi_Singh_Java_Dev.docx"
+        href="/Resume/Jasvir_Singh_Java_Dev.docx"
         className="bg-green-500 text-white py-2 px-6 sm:px-8 rounded mt-4 inline-block transition duration-200 hover:bg-green-600"
         download
       >

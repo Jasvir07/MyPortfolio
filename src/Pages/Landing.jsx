@@ -10,7 +10,7 @@ const Landing = () => {
         I am Jasvir Singh.
       </h1>
       <h2 className="text-white text-xl sm:text-2xl  mb-6">
-        Frontend Developer
+        Frontend Developer (React)
       </h2>
       <button className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 sm:px-6 rounded-md text-sm sm:text-lg">
         KNOW ME BETTER

@@ -9,10 +9,10 @@ const ContactMe = () => {
   ];
 
   const socialLinks = [
-    { icon: <FaEnvelope />, href: "#" },
-    { icon: <FaInstagram />, href: "#" },
-    { icon: <FaGithub />, href: "#" },
-    { icon: <FaLinkedin />, href: "#" },
+    { icon: <FaEnvelope />, href: "" },
+    { icon: <FaInstagram />, href: "https://www.instagram.com/_jass_bhatoa_/?igsh=MTBvNW0yMzVleXBzNg%3D%3D" },
+    { icon: <FaGithub />, href: "https://github.com/Jasvir07" },
+    { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/jasvir07/" },
   ];
 
   return (
@@ -24,7 +24,9 @@ const ContactMe = () => {
       <div className="relative z-10 w-full h-full p-4 sm:p-8 flex items-center justify-center">
         <div className="text-white text-center w-full sm:w-8/12 md:w-6/12 mx-auto">
           <h1 className="text-3xl sm:text-4xl font-bold mb-4">CONTACT ME</h1>
-          <p className="text-base sm:text-lg mb-6">Have a project to discuss?</p>
+          <p className="text-base sm:text-lg mb-6">Have a project to discuss?
+          <span className="block w-[8%] h-1 mx-auto bg-green-500 mt-2"/>
+          </p>
           <div className="w-full">
             {inputFields.map((field, index) => (
               <input

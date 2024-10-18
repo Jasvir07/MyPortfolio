@@ -16,7 +16,7 @@ const skillsData = [
       <section className="py-20 text-white">
         <div className="w-full mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-semibold">My Skills</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold">My Skills</h2>
             <h4 className="text-xl">
               Wisdom is knowing what to do next. Skill is knowing how to do it.
             </h4>

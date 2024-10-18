@@ -1,13 +1,14 @@
 const About = () => {
   return (
     <div className="text-center py-10 sm:py-20 bg-black text-white">
-      <h2 className="text-3xl sm:text-4xl mb-4 font-semibold">
+      <h2 className="text-3xl sm:text-4xl  font-bold mb-4">
         HI, I AM JASVIR SINGH
       </h2>
       <div className="text-center mb-8">
         <h4 className="text-lg sm:text-xl">
           I will either find a way, or make one.
         </h4>
+        <span className="block w-[8%] h-1 mx-auto bg-green-500 mt-2"></span>
       </div>
       <p className="text-base sm:text-lg w-11/12 sm:w-10/12 md:w-8/12 lg:w-6/12 text-start mx-auto mb-6">
         Greetings! I am Jasvir Singh, a recent graduate from Punjabi University

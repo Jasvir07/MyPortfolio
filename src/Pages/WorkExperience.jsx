@@ -31,7 +31,8 @@ const WorkExperience = () => {
 
     return (
         <div className="bg-black text-white pt-10 ">
-            <h2 className="text-3xl font-bold text-center">WORK EXPERIENCE</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-center">WORK EXPERIENCE</h2>
+            <span className="block w-[8%] h-1 mx-auto bg-green-500 mt-2"></span>
             {experiences.map((experience, index) => (
                 <ExperienceItem
                     key={index}

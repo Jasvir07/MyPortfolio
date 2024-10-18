@@ -25,7 +25,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="relative w-full mx-auto">
+    <div className="relative w-full mx-auto" id="portfolio">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${img4})`, zIndex: -1 }}

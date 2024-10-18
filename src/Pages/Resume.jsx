@@ -1,6 +1,6 @@
 function Resume() {
   return (
-    <div className="text-center text-white bg-black py-10 sm:py-20 px-4">
+    <div className="text-center text-white bg-black py-10 sm:py-20 px-4" id="resume">
       <h1 className="text-3xl sm:text-4xl font-bold">MY RESUME</h1>
       <p className="text-xl sm:text-2xl mt-2">
         I like to challenge my limits and never miss an opportunity.

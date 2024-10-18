@@ -13,7 +13,7 @@ const skillsData = [
   
   const Skills = () => {
     return (
-      <section className="py-20 text-white">
+      <section className="py-20 text-white" id="skills">
         <div className="w-full mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold">My Skills</h2>

@@ -17,7 +17,7 @@ const ContactMe = () => {
 
   return (
     <div
-      className="relative flex items-center justify-center  bg-cover bg-center "
+      className="relative flex items-center justify-center  bg-cover bg-center " id="contact"
       style={{ backgroundImage: `url(${img1})` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-75 z-0"></div>

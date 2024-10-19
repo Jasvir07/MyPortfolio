@@ -16,8 +16,8 @@ app.post("/mail", async (req, res) => {
     });
   
     let mailOptions = {
-      from: process.env.GMAIL_EMAIL,
-      to: email,
+      from: email,
+      to: process.env.GMAIL_EMAIL,
       subject: subject,
       text: message
     };

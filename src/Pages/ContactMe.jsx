@@ -25,7 +25,7 @@ const ContactMe = () => {
     const api = async () => {
       try {
         const response = await axios.post(
-          "http://localhost:3007/mail",
+          "https://backend-seven-kappa-33.vercel.app/mail",
           formData
         );
         const data = await response.data;

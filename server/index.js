@@ -4,7 +4,7 @@ const app = express()
 app.use(express.json())
 const nodemailer = require("nodemailer")
 app.use(cors({
-    origin: 'http://localhost:5173'
+    origin: 'https://my-portfolio-zeta-six-20.vercel.app'
 }));
 require("dotenv").config()
 app.post("/mail", async (req, res) => {

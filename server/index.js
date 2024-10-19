@@ -3,11 +3,7 @@ const cors = require("cors")
 const app = express()
 app.use(express.json())
 const nodemailer = require("nodemailer")
-app.use(cors({
-  origin: 'https://my-portfolio-zeta-six-20.vercel.app',
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']
-}));
+app.use(cors());
 require("dotenv").config()
 app.post("/mail", async (req, res) => {
     const {name,email,subject,message} = req.body;
